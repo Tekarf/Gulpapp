@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tekarf/Gulpapp.git"
+  },
+  "keywords": [
+    "gulp",
+    "angularjs"
+  ],
+  "author": "areef",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tekarf/Gulpapp/issues"
+  },
+  "homepage": "https://github.com/Tekarf/Gulpapp#readme", 
+  "devDependencies": {
+      "gulp": "",
+      "gulp-contrib-copy": "",
+      "gulp-concat": "",
+      "gulp-connect": "",
+      "gulp-clean": "",
+      "gulp-changed": "",
+      "gulp-imagemin": ""
+      
+}
+}
