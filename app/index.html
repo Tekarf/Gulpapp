@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles/styles.min.css">
+<link rel="stylesheet" href="style.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body ng-app="myapp"style="height: 100%;">
+	<div id="wrap">
+<nav class="navbar navbar-inverse">		
+  <div class="container-fluid">
+    <div class="navbar-header">    	
+    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+    <ul class="nav navbar-nav">
+     
+      <li><a ui-sref=".home">Home</a></li>
+      <li><a ui-sref=".about">About</a></li>
+      <li><a ui-sref=".services">Services</a></li>
+      <li><a ui-sref=".contact">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">	
+	<h1>Welcome to Gulp App!</h1>
+	<div ui-view></div>
+ 
+</div>
+
+<!-- <p>Input something in the input box:</p>
+<p>Name : <input type="text" ng-model="name" placeholder="Enter name here"></p>
+<h1>Hello {{name}}</h1>
+ -->
+<!-- <footer class="footer">
+	<div class="container"> 
+		<div class="row"> 
+			<div class="col-md-12">
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>				
+				</div>
+	</div>
+	</div>
+
+
+			</footer> -->
+
+<footer class="navbar1-fixed-bottom">
+    
+    <ul class="social-network social-circle">       	
+        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+    </ul>	
+    
+</footer>
+
+
+<script src="lib.js"></script>
+</div>
+</div>
+</body>
+</html>
